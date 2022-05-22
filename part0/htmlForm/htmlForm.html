@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+
+    <link rel="stylesheet" href="htmlForm.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <p class="titleText">Contact Form</p>
+
+    <form action="/my-handling-form-page" method="post">
+
+        <ul>
+
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" name="contact_name" id="name" placeholder="Enter your name">
+            </li>
+
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="contact_email" id="email" placeholder="Enter your email">
+            </li>
+
+            <li>
+                <label for="message">Message:</label>
+                <textarea name="contact_message" id="message" rows="10"placeholder="Enter your message"></textarea>
+            </li>
+
+            <li>
+                <button type="submit">Send Your Message</button>
+            </li>
+
+        </ul>
+
+    </form>
+
+</body>
+
+</html>
