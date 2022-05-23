@@ -1,0 +1,11 @@
+note over browser: 
+Add New Note Save
+end note
+
+note over browser: 
+Add New Note to array and update 
+DOM API using redrawNotes() then 
+update server with sendToServer(note)
+end note
+
+browser-> server: HTTP Post to "POST", '/exampleapp/new_note_spa'
